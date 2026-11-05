@@ -1,0 +1,63 @@
+{
+  "seed": 20261105,
+  "start": "2024-01-01",
+  "end": "2025-12-31",
+  "tables": {
+    "users": {
+      "base_rows": 22000,
+      "raw_rows": 22044,
+      "exact_duplicates": 44,
+      "injected_defects": {
+        "missing_country": 110
+      },
+      "sha256": "a15a20609dc9a130e4e561d3432cfd56e99c9c88b66e3843aac892f0ed84159f",
+      "key": "user_id"
+    },
+    "game_sessions": {
+      "base_rows": 310000,
+      "raw_rows": 310620,
+      "exact_duplicates": 620,
+      "injected_defects": {},
+      "sha256": "260898ee5d4ccbb332ba51fea943d17c0ee7ee3e861aab98de1d4fcc5f622ad7",
+      "key": "session_id"
+    },
+    "deposits": {
+      "base_rows": 70000,
+      "raw_rows": 70140,
+      "exact_duplicates": 140,
+      "injected_defects": {
+        "negative_amount": 70,
+        "inconsistent_status": 140
+      },
+      "sha256": "8e6752433b1f7775ff576ee931f5c49e73aff9ab6131423baf76f7a623ebca81",
+      "key": "deposit_id"
+    },
+    "withdrawals": {
+      "base_rows": 22000,
+      "raw_rows": 22044,
+      "exact_duplicates": 44,
+      "injected_defects": {
+        "negative_amount": 22,
+        "inconsistent_status": 44
+      },
+      "sha256": "41af53534b30ffcb16f0d8e9b26af8496731258fc18c32304f60a42647a65708",
+      "key": "withdrawal_id"
+    },
+    "marketing_campaigns": {
+      "base_rows": 96,
+      "raw_rows": 96,
+      "exact_duplicates": 0,
+      "injected_defects": {},
+      "sha256": "3e367abd6512d0ab7f2b0400d1dc32d67c6858dd233511ab34ea4bb1cb291a65",
+      "key": "campaign_id"
+    },
+    "campaign_attribution": {
+      "base_rows": 15295,
+      "raw_rows": 15326,
+      "exact_duplicates": 31,
+      "injected_defects": {},
+      "sha256": "2b15b3f17604addf219b3876196730558b84edbf7013d60a3d25d12cf9b0a3eb",
+      "key": "user_id"
+    }
+  }
+}

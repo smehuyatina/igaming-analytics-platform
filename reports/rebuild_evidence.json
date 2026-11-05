@@ -1,0 +1,17 @@
+{
+  "idempotent_load": true,
+  "full_dataset_reproducible": true,
+  "counts": {
+    "users": 22000,
+    "deposits": 69930,
+    "withdrawals": 21978,
+    "game_sessions": 310000,
+    "marketing_campaigns": 96,
+    "campaign_attribution": 15295
+  },
+  "financial_totals": [
+    6120352862,
+    242428850,
+    5877924012
+  ]
+}

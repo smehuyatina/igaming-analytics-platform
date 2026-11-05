@@ -1,0 +1,44 @@
+{
+  "users": {
+    "raw_rows": 22044,
+    "duplicate_rows": 44,
+    "quarantined_rows": 0,
+    "clean_rows": 22000,
+    "unknown_country_rows": 110
+  },
+  "deposits": {
+    "raw_rows": 70140,
+    "duplicate_rows": 140,
+    "quarantined_rows": 70,
+    "clean_rows": 69930,
+    "unknown_country_rows": 0
+  },
+  "withdrawals": {
+    "raw_rows": 22044,
+    "duplicate_rows": 44,
+    "quarantined_rows": 22,
+    "clean_rows": 21978,
+    "unknown_country_rows": 0
+  },
+  "game_sessions": {
+    "raw_rows": 310620,
+    "duplicate_rows": 620,
+    "quarantined_rows": 0,
+    "clean_rows": 310000,
+    "unknown_country_rows": 0
+  },
+  "marketing_campaigns": {
+    "raw_rows": 96,
+    "duplicate_rows": 0,
+    "quarantined_rows": 0,
+    "clean_rows": 96,
+    "unknown_country_rows": 0
+  },
+  "campaign_attribution": {
+    "raw_rows": 15326,
+    "duplicate_rows": 31,
+    "quarantined_rows": 0,
+    "clean_rows": 15295,
+    "unknown_country_rows": 0
+  }
+}
