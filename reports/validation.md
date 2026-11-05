@@ -24,4 +24,6 @@ The golden fixture checks independent hand-calculated answers for financial fano
 
 Full-dataset financial totals: GGR **KRW 6,120,352,862**, modeled bonus **KRW 242,428,850**, bonus-only NGR **KRW 5,877,924,012**. See `rebuild_evidence.json`, `results/reconciliation.json`, `generation_manifest.json`, and `quality_report.json` for machine-readable evidence.
 
-The GitHub Actions workflow is configured for Python 3.11 and 3.13 with PostgreSQL 17. These remote jobs have **not** been run or observed in this local build. Python 3.11 is a configured CI target, not a claimed local test result. The repository is published at https://github.com/smehuyatina/igaming-analytics-platform. Remote CI status should be checked on the Actions page.
+GitHub Actions successfully executed the complete pipeline and tests on **Python 3.11 and 3.13** with PostgreSQL 17. Both matrix jobs passed in [run 42026149767](https://github.com/smehuyatina/igaming-analytics-platform/actions/runs/42026149767), testing commit `ef3e02c4fb1bb38a72d4a9bc408ae2d4c107e8e3`. The subsequent documentation-only commit records this evidence and uses `[skip ci]`; application code is unchanged from the tested revision. Machine-readable evidence is in `github_ci.json`.
+
+The public repository is https://github.com/smehuyatina/igaming-analytics-platform.

@@ -1,0 +1,17 @@
+{
+  "run_url": "https://github.com/smehuyatina/igaming-analytics-platform/actions/runs/42026149767",
+  "tested_commit": "ef3e02c4fb1bb38a72d4a9bc408ae2d4c107e8e3",
+  "conclusion": "success",
+  "jobs": [
+    {
+      "name": "verify (3.11)",
+      "conclusion": "success",
+      "url": "https://github.com/smehuyatina/igaming-analytics-platform/actions/runs/42026149767/job/127240748715"
+    },
+    {
+      "name": "verify (3.13)",
+      "conclusion": "success",
+      "url": "https://github.com/smehuyatina/igaming-analytics-platform/actions/runs/42026149767/job/127240749208"
+    }
+  ]
+}
