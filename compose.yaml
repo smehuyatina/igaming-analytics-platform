@@ -1,0 +1,18 @@
+services:
+  postgres:
+    image: postgres:17
+    environment:
+      POSTGRES_DB: igaming
+      POSTGRES_USER: portfolio
+      POSTGRES_PASSWORD: portfolio_local
+    ports:
+      - "127.0.0.1:55437:5432"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U portfolio -d igaming"]
+      interval: 3s
+      timeout: 3s
+      retries: 20
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+volumes:
+  pgdata:
